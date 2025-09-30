@@ -1,0 +1,53 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+li {
+  border-color: rgb(72, 67, 67);
+  display: block;
+  border-bottom: solid;
+  padding-right: 0%;
+  align-items: center;
+  padding: 1ch;
+  border-bottom-color: gray;
+  border-bottom-width: 0.5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+section {
+  width: 50%;
+}
+
+section li:hover {
+  background-color: rgba(128, 128, 128, 0.841);
+}
+
+.details {
+  padding-right: 1ch;
+  padding-left: 1ch;
+}
+
+button {
+  width: 100%;
+  color: black;
+  background-color: aliceblue;
+  border-style: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.5;
+}
